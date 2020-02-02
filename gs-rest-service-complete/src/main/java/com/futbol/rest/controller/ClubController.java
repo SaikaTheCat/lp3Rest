@@ -14,7 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * Club Rest Cotroller class expose the REST API for Club creation and retrieving it
+ * @author
+ */
 @RestController
 @RequestMapping("/club")
 public class ClubController {

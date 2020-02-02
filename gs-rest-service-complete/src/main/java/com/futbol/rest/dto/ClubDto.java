@@ -1,7 +1,8 @@
 package com.futbol.rest.dto;
 
 /**
- *
+ * DTO classes it's act to Data transfer object and trasfer the data from view 
+ * to the Controller create club API
  * @author
  */
 public class ClubDto {

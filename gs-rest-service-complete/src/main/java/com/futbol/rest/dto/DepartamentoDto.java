@@ -2,7 +2,9 @@ package com.futbol.rest.dto;
 
 /**
  *
- * @author lue
+ * DTO classes it's act to Data transfer object and transfer the data from view 
+ * to the Controller create Departamento API
+ * @author
  */
 public class DepartamentoDto {
    

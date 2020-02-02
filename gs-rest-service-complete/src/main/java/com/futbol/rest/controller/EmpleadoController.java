@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 
+/**
+ * Empleado Rest Cotroller class expose the REST API for creation and retrieving it
+ * @author
+ */
 @RestController
 @RequestMapping("/empleado")
 public class EmpleadoController {

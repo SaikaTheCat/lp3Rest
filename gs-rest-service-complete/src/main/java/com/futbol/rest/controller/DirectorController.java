@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * Director Rest Cotroller class expose the REST API for creation and retrieving it
+ * @author
+ */
 @RestController
 @RequestMapping("/director")
 public class DirectorController {
