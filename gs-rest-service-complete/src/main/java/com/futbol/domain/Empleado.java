@@ -17,14 +17,6 @@ public class Empleado extends Persona{
     this.Edad=Edad;
     this.Salario=Salario;
     }
-    
-    /*Empleado(int Id_Empleado,String Nom_Empleado,String Cargo,float Salario,int Id_Equipox,String Nom_Equipox,int Jugadosx,int Ganadosx,int Empatadosx,int Perdidosx,int Favorx,int Encontrax){
-    super(Id_Equipox,Nom_Equipox,Jugadosx,Ganadosx,Empatadosx,Perdidosx,Favorx,Encontrax);
-    this.Id_Empleado=Id_Empleado;
-    this.Nom_Empleado=Nom_Empleado;
-    this.Cargo=Cargo;
-    this.Salario=Salario;
-    }*/
 
 
     public Equipo getEquipo() {
@@ -35,6 +27,4 @@ public class Empleado extends Persona{
         this.equipo = equipo;
     }
 
-
-   public void Get_Empleado(){System.out.println("Empleado->Id_Empleado:" + this.Id+ "| Nom_Empleado:" + this.Nom + "| Edad:" + this.Edad + "| Id_Equipo:" + this.equipo.Id_Equipo);}   
 }

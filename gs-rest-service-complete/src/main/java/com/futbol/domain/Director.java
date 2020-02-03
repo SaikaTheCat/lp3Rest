@@ -11,7 +11,6 @@ public class Director extends Empleado{
    
     public Director(){super();}
    public Director(int empleado,String Cargo){
-    //super();
     this.Id=empleado;
     this.Posicion=Cargo;
     }
@@ -21,10 +20,5 @@ public class Director extends Empleado{
   
     }
     
-  
-    //void Get_Det_empleado(){System.out.println("Directora->Id_Empleado:" + this.Get_Id_Det_Empleado() + "| Salario:" + this.Salario + "| Cargo:" + this.Cargo);}   
-   //La funcion llama los datos del director, revelando el id, nombre, edad, equipo, salario y posicion
-   public void Get_Det_empleado2(){System.out.println("Det_empleado->Id_Empleado:" + this.getId()+ "| Nom_Empleado:" + this.getNom() + "| Edad:" + this.Edad + "| Id_Equipo:" + this.getEquipo() + "| Salario:" + this.Salario + "| Posicion:" + this.Posicion);}
-   
-    
+ 
 }

@@ -67,8 +67,4 @@ public class Jugador extends Persona {
         this.torneoGanar = torneoGanar;
     }
 
-    public void Get_Jugador() {
-        System.out.println("Jugador->Id_Jugador:" + this.Id + "| Nombres:" + this.Nom + "| Edad:" + this.Edad + "| Camiseta:" + this.Camiseta + "| Posicion:" + this.Posicion + "| Equipo:" + this.equipo + "| Salario:" + this.Salario);
-    }
-
-}
+   }

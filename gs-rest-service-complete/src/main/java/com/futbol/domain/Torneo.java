@@ -22,7 +22,7 @@ public class Torneo{
     public Torneo(){super();};
     
    public Torneo(int Id_Torneo,String Nom_Torneo,String Tipo){
-    //super();
+ 
     this.Id_Torneo=Id_Torneo;
     this.Nom_Torneo=Nom_Torneo;
     this.Tipo=Tipo;
@@ -59,9 +59,5 @@ public class Torneo{
     public void setEquipos(List<Equipo> equipos) {
         this.equipos = equipos;
     }
-    
-    
-    
-    void Get_Torneo(){System.out.println("Torneo->Id_Torneo:" + this.Id_Torneo + "| Nom_Torneo:" + this.Nom_Torneo + "| Tipo:" + this.Tipo);}   
-    
+  
 }

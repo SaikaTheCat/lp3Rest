@@ -54,9 +54,6 @@ public class Departamento {
     public void setdirector(Director director) {
         this.director = director;
     }
-    
-    public void getDepartamento(){
-         System.out.println("Equipo->id:" + this.id + "| Nom:" + this.nom + "| director:" + this.director);
-    }
+   
     
 }

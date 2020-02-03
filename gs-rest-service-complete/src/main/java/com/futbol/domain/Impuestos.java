@@ -9,12 +9,7 @@ public class Impuestos {
     private int luxuryTax = 30;  //luxury tax is 30%
     
    public Impuestos(){};
-    /*
-    double Imp_Tec(){return this.Get_Salario()*0.04;};
-    double Imp_Pro(){return this.Get_Salario()*0.02;};
-    double Imp_Sal(){return 0;};
-    */
-
+   
     public int getId_Jugador() {
         return Id_Jugador;
     }

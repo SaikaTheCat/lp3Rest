@@ -27,16 +27,7 @@ public class Equipo {
     private int Encontra;
 
     public Equipo() {
-//        this.Id_Equipo = 0;
-//        this.Nom_Equipo = "";
-//        this.Pais = "";
-//        this.jugadors=new ArrayList<>();
-//        this.entrenador=new Entrenador();
-//        this.Ganados = 0;
-//        this.Empatados = 0;
-//        this.Perdidos = 0;
-//        this.Favor = 0;
-//        this.Encontra = 0;
+
     }
 
   public  Equipo(int Id_Equipo, String Nom_Equipo, String Pais, int Ganados, int Empatados, int Perdidos, int Favor, int Encontra,int entrenador) {
@@ -124,10 +115,5 @@ public class Equipo {
         this.Encontra = Encontra;
     }
 
-    
-
-    public void Get_Equipo() {
-        System.out.println("Equipo->Id_Equipo:" + this.Id_Equipo + "| Nom_Equipo:" + this.Nom_Equipo + "| Pais:" + this.Pais + "| Jugados:" + this.jugadors + "| Ganados:" + this.Ganados + "| Empatados" + this.Empatados + "| Perdidos:" + this.Perdidos + "| Favor:" + this.Favor + "| Encontra:" + this.Encontra);
-    }
 
 }

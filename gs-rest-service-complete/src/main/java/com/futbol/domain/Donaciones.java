@@ -31,6 +31,5 @@ public class Donaciones {
     
     int Get_Id_Donacion(){return this.Id_Donacion;}
     double Get_Monto(){return this.Monto;}
-    void Get_Donaciones(){System.out.println("Donaciones->Id_Donacion:" + this.Id_Donacion + "| Id_Ong:" + this.Id_Ong + "| Id_Equipo:" + this.Id_Equipo + "| Monto:" + this.Monto);}   
-    
+   
 }

@@ -13,8 +13,5 @@ public class Entrenador extends Jugador{
     this.Nom=Nom_Titulo;
     
     }
-    
-
-    public void Get_Entrenador(){System.out.println("Entrenador->Id_Entrenador:" + this.Id + "| Nom_Titulo:" + this.Nom);}  
-    
+   
 }
