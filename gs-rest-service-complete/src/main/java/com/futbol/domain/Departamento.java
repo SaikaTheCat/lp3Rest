@@ -17,7 +17,7 @@ public class Departamento {
     private int id;
     
     private String nom;
-    @OneToOne
+    @OneToOne //Relacion uno a uno 
     private Director director;
 
     public Departamento() {

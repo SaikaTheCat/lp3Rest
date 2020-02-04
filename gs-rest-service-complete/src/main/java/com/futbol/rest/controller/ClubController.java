@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Club Rest Cotroller class expose the REST API for Club creation and retrieving it
+ * La clase Rest controller de Club expone la API REST para su creacion y recuperacion
  * @author
  */
 @RestController
@@ -31,26 +31,26 @@ public class ClubController {
         @Autowired
         private EquipoService equipoService;
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET) //Llama los datos por el Id
     public Club getById(@PathVariable("id") Integer id) {
         Club club = clubService.findById(id);
         return club;
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET) //Lista los club
     public List<Club> list() {
         return clubService.findAll();
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public void add(@RequestBody ClubDto clubDto) {
+    public void add(@RequestBody ClubDto clubDto) { // Agrega un nuevo club
         Club club=new Club();
         club.setEmpleado(empleadoService.findById(clubDto.getEmployeeId()));
         club.setEquipo(equipoService.findById(clubDto.getEquipmentId()));
     	clubService.save(club);
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE) //Borra los datos del club por el Id
     public void delete(@PathVariable("id") Integer id) {
     	clubService.delete(id);
     }

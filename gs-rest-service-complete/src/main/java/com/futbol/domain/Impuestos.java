@@ -3,10 +3,10 @@ package com.futbol.domain;
 public class Impuestos {
     
     private int Id_Jugador;
-    private int personalIncomeTax=10; //Personal Income Tax (10%)
-    private int technologyTax = 4; //technology tax is 4%
-    private int promotionTax = 2;  //promotion tax is 2%
-    private int luxuryTax = 30;  //luxury tax is 30%
+    private int personalIncomeTax=10; //Impuesto a la renta personal (10%)
+    private int technologyTax = 4; //Impuesto para tecnologia (4%)
+    private int promotionTax = 2;  //Impuesto para promocion (2%)
+    private int luxuryTax = 30;  //Impuesto de lujo (30%)
     
    public Impuestos(){};
    

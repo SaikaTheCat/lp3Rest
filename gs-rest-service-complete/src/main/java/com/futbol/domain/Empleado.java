@@ -3,7 +3,7 @@ package com.futbol.domain;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
-@Entity
+@Entity //establece que una clase puede ser mapeado a una tabla
 public class Empleado extends Persona{
     
     @ManyToOne

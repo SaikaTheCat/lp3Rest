@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * Empleado Rest Cotroller class expose the REST API for creation and retrieving it
+ * La clase Rest controller de Empleado expone la API REST para su creacion y recuperacion
  * @author
  */
 @RestController

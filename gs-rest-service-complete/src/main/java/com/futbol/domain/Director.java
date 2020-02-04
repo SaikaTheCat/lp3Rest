@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 
 /**
  *
- * @author atenc
+ * @author
  */
 @Entity
 public class Director extends Empleado{

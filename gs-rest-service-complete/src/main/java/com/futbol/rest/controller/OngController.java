@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Ong Rest Cotroller class expose the REST API for creation and retrieving it
+ * La clase Rest controller de Ong expone la API REST para su creacion y recuperacion
  * @author
  */
 @RestController

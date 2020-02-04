@@ -30,7 +30,7 @@ public class Jugador extends Persona {
     }
 
     //Jugador(12345678,"Rafael Lopez",23,16000,9,"Delantero",equipo);
-    //Empleado(int Id_Empleado,String Nom_Empleado,int Edad,double Salario,Equipo equipo)
+   
    public Jugador(int Id_Empleado, String Nom_Empleado, int Edad, double Salario, int Camiseta, String Posicion) {
        
         this.Id=Id_Empleado;

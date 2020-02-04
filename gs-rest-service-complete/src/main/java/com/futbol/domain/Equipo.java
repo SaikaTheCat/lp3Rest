@@ -16,7 +16,7 @@ public class Equipo {
     protected int Id_Equipo;
     private String Nom_Equipo;
     private String Pais;
-    @OneToMany(mappedBy = "equipo")
+    @OneToMany(mappedBy = "equipo") 
     private List<Jugador> jugadors;
     
     private int entrenador;
@@ -39,8 +39,8 @@ public class Equipo {
         this.Perdidos = Perdidos;
         this.Favor = Favor;
         this.Encontra = Encontra;
-         this.jugadors=new ArrayList<>();
-          this.entrenador=entrenador;
+        this.jugadors=new ArrayList<>();
+        this.entrenador=entrenador;
     }
 
     public int getId_Equipo() {

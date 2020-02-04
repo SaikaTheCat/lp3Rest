@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- *  Service class act as service layer and sit between the Controller and DAO classes
- *  so processing work can be added here
+ *  La clase de servicio actua como una capa de servicio que se situa entre el controller y las clases DAO(Data access object)
+ *  y de esta manera el trabajo del procesamiento puede ser agregado aqui
  * @author
  */
 @Service
@@ -18,7 +18,7 @@ public class ClubService {
 	@Autowired
 	private ClubRepository clubRepository;
 
-	public Club findById(int id) {
+	public Club findById(int id) { 
 		return  clubRepository.findById(id).get();
 		
 	}

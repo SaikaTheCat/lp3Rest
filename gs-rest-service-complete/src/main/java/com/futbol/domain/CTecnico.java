@@ -6,6 +6,6 @@ import javax.persistence.Entity;
 @Entity
 public class CTecnico extends Entrenador{
    
-   public CTecnico(){super();}
+   public CTecnico(){super();} //Adquiere los atributos de entrenador
  
 }

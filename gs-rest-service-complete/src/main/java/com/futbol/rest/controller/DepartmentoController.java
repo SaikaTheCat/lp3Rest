@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Departmento Rest Cotroller class expose the REST API for creation and retrieving it
+ *La clase Rest controller de Departamento expone la API REST para su creacion y recuperacion
  * @author
  */
 @RestController

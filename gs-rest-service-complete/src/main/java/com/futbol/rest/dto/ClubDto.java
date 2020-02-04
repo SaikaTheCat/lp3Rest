@@ -1,8 +1,10 @@
 package com.futbol.rest.dto;
 
 /**
- * DTO classes it's act to Data transfer object and trasfer the data from view 
- * to the Controller create club API
+ * Las clases DTO (Data transfer object) transfiere los datos de la vista o view
+ * al controller que crea la API del Club.
+ * Usamos el patron DTO donde solo contiene los atributos, getters y setters
+ * para la transferencia de atributos entre el cliente y servidor o viceversa
  * @author
  */
 public class ClubDto {

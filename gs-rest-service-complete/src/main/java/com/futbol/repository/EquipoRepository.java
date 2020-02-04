@@ -4,8 +4,8 @@ import com.futbol.domain.Equipo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Equipo Repository class provide the CRUD access for domain classes
- * inherited from Spring JpaRepository class
+ * La clase de EquipoRepository provee el acceso del CRUD (Create, Read, Update and Delete) para la clase del domain
+ * heredado de la clase de Spring JpaRepository
  * @author
  */
 public interface EquipoRepository extends JpaRepository<Equipo, Integer> {
