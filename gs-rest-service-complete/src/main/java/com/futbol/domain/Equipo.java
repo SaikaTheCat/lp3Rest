@@ -30,7 +30,7 @@ public class Equipo {
 
     }
 
-  public  Equipo(int Id_Equipo, String Nom_Equipo, String Pais, int Ganados, int Empatados, int Perdidos, int Favor, int Encontra,int entrenador) {
+  public  Equipo(int Id_Equipo, String Nom_Equipo, String Pais, int Ganados, int Empatados, int Perdidos, int Favor, int Encontra,Jugador jugadors,int entrenador) {
         this.Id_Equipo = Id_Equipo;
         this.Nom_Equipo = Nom_Equipo;
         this.Pais = Pais;

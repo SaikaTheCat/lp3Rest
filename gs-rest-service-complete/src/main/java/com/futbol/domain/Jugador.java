@@ -6,7 +6,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Transient;
 
 @Entity
-public class Jugador extends Persona {
+public class Jugador extends Empleado {
 
     //protected int Id_Jugador;
     protected int Camiseta;
@@ -21,15 +21,7 @@ public class Jugador extends Persona {
         super();
     }
 
-    
-   public Jugador(int Id_Jugador, int Camiseta, String Posicion) {
-        //super();
-        this.Id=Id_Jugador;
-        this.Camiseta = Camiseta;
-        this.Posicion = Posicion;
-    }
 
-    //Jugador(12345678,"Rafael Lopez",23,16000,9,"Delantero",equipo);
    
    public Jugador(int Id_Empleado, String Nom_Empleado, int Edad, double Salario, int Camiseta, String Posicion) {
        

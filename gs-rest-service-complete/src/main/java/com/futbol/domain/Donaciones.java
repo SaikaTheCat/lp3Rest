@@ -25,7 +25,7 @@ public class Donaciones {
     this.Monto=Monto;
     }
     
-    void Set_Id_Donacion(double Id_Donacion){this.Monto=Id_Donacion;}
+    void Set_Id_Donacion(int Id_Donacion){this.Id_Donacion=Id_Donacion;}
     void Set_Monto(double Monto){this.Monto=Monto;}
     
     
